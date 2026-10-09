@@ -1,4 +1,4 @@
-# Déploiement Netlify du backend (site Netlify dont le « Base directory » est backend/)
+# Déploiement Netlify de l API (Base directory : la racine du repo)
 [build]
   command = "echo 'Pas de build pour l API'"
   publish = "public"

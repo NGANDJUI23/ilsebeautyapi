@@ -15,7 +15,7 @@ export const SERVICES = [
 ];
 
 // Dimanche..Samedi, [heure d'ouverture, heure de fermeture] ou null = fermé
-export const HOURS = [[12, 17], [9, 19], [9, 19], [9, 19], [9, 19], [9, 19], [9, 17]];
+export const HOURS = [[12, 17], null, [9, 19], [9, 19], [9, 19], [9, 19], [9, 17]];
 
 // Nombre de jours réservables à l'avance (à partir de demain)
 export const BOOKING_WINDOW_DAYS = 21;
